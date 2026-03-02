@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Hello from "./components/Hello"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
       <Link href="/about">About</Link>
       <Link href="/contact">Contact</Link>
       <Link href="/projects">Projects</Link>
+      <Hello></Hello>
     </div>
   );
 }
