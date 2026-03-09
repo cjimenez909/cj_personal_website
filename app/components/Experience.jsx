@@ -3,7 +3,7 @@ import React from 'react'
 export default function Experience() {
     return (
         <div className="flex flex-col">
-            <h1>Experience</h1>
+            <h1 className="text-[#17326E]"><b>experience</b></h1>
             <div className="flex flex-row">
                 <img src="/bootcamp_small.jpg"></img>
                 <div className="flex flex-col">

@@ -1,16 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import Hello from "./components/Hello"
 import Icons from "./components/Icons"
 import Intro from "./components/Intro"
 import AboutMe from "./components/AboutMe"
 import Experience from "./components/Experience"
+import Skills from "./components/Skills"
+import Awards from "./components/Awards"
+import Contact from "./components/Contact"
 
 export default function Home() {
   return (
-    <div className="bg-F4F1EC">
+    <div className="bg-[#F4F1EC] text-[#2E2E2E] padding-10 margin-10 justify-content: center">
       <div className="flex flex-row gap-4">
-        <header>Claudia Jimenez</header>
+        <header className="text-[#17326E]"><b>Claudia Jimenez</b></header>
         <header>Home</header>
         <Link href="/about">About</Link>
         <header>Experience</header>
@@ -29,6 +31,9 @@ export default function Home() {
       </div>
       <AboutMe></AboutMe>
       <Experience></Experience>
+      <Skills></Skills>
+      <Awards></Awards>
+      <Contact></Contact>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react'
 export default function AboutMe() {
     return (
         <div className="flex flex-col"> 
-            <h1>about me</h1>
+            <h1 className="text-[#17326E]"><b>about me</b></h1>
             <h2>Fast facts about me:</h2>
             <ul>
                 <li>I am based in Chicago, IL</li>
